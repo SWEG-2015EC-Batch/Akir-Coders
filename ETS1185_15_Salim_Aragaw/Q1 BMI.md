@@ -1,4 +1,4 @@
-1.problem analysis
+problem analysis
 
 input(s): the height and weight of the user in meter and kg respectively.
 output(s): the body max index of the user  (BMI).
