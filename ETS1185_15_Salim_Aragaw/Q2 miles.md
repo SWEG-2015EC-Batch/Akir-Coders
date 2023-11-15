@@ -1,4 +1,4 @@
-2.problem analysis
+problem analysis
 
 input(s): the capacity of the fuel tank in gallons(capacity) and the miles per gallon that the automobile can be driven(milesPerGallons).
 output(s): the number of mile that the automobile can be driven without refueling(miles).
