@@ -9,7 +9,8 @@ int main()
     cout<<"Enter your weight:";
     cin>>weight;
     BMI=(weight/(height*height));
-    cout<<BMI;
+    cout<<"BMI="<<BMI;
     
     return 0;
 }
+
