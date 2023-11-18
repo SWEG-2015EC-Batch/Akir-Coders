@@ -16,3 +16,7 @@ step 2: read the base(x) and the exponent(y)
 step 3: result --> x^y
 step 4: print result
 step 5: stop
+
+flow chart
+
+![Screenshot 2023-11-18 112249](https://github.com/SWEG-2015EC-Batch/Akir-Coders/assets/149458119/8b3b7e7f-8771-4076-9cdc-e2e9ca324798)
