@@ -10,14 +10,10 @@ procedure :
 
 algorithm in psedocode
 
-step 1: start
-step 2: read transmission rate and file size in bytes
-step 3: timeInSeconds = (double)fileSizeInBytes / transmissionRate
-step 4: timeInMinutes = timeInSeconds / 60;
-step 5: timeInHours = timeInMinutes / 60;
-step 6: timeInDays = timeInHours / 24;
-step 7: print timeInSeconds
-step 8: print timeInMinutes
-step 9: print timeInHours
-step 10: print timeInDays 
-step 11: stop
+step 1: start 
+step 2: intialize transmission rate <- 960 
+step 3: read file size 
+step 4: calculate time in seconds <- file size / transmission rate 
+step 5: calculate days <- time in seconds /86400 step 
+6: print days 
+step 7: end
