@@ -17,3 +17,7 @@ step 4: calculate time in seconds <- file size / transmission rate
 step 5: calculate days <- time in seconds /86400 step 
 6: print days 
 step 7: end
+
+flow chart
+
+![photo_2023-11-18_12-12-32](https://github.com/SWEG-2015EC-Batch/Akir-Coders/assets/149458119/9eb3c93b-a568-40d0-a50c-78376b3f7653)
