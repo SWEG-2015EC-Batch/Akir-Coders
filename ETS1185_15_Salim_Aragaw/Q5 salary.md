@@ -38,3 +38,7 @@ step 7: taxDeduction --> grossSalary * 0.15
 step 8: netSalary --> grossSalary - (pensionDeduction + taxDeduction)
 step 9: print (Employee Name,Gross Salary,Net Salary,Bonus Payment). 
 step 10: stop
+
+flow chart
+
+![283946006-09264b92-09d2-4328-b4cd-9a895c88ab8b](https://github.com/SWEG-2015EC-Batch/Akir-Coders/assets/149458119/3ddd1925-9759-4652-bc8b-03b10b17b766)
