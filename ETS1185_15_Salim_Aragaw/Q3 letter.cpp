@@ -1,26 +1,16 @@
-#include<iostream>
-#include<ctype.h>
-#include<string.h>
+#include <iostream>
+#include <ctype.h>
 using namespace std;
-int main()
+int main() 
 {
-    char Letter;
-    cout<<"Enter the Letter"<< endl;
-    cin>>Letter;
-    if (islower (Letter))
-        {
-            Letter = toupper(Letter);
-            cout<<Letter;
-        }
-    else if (isupper(Letter))
-		{
-		Letter = tolower(Letter);
-		cout<<Letter;
-		}
-	else 
-		{
-        cout << "The character " << Letter << " is not a letter."<< endl;
-    	}
+    char letter,upper,lower;
+
+    cout << "Enter a letter: ";
+    cin >> letter;
+    upper = toupper(letter);
+    cout << "Uppercase equivalent: " << upper <<endl;
+    lower = tolower(letter);
+    cout << "Lowercase equivalent: " << lower <<endl;
 
     return 0;
 }
