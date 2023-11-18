@@ -1,7 +1,5 @@
-//Gross Salary, Net Salary & Bonus Payment Calculator
 #include<iostream>
-#include<ctype.h>
-#include<math.h>
+
 using namespace std;
 int main()
 {
