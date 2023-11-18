@@ -15,3 +15,8 @@ step 2: read letter
 step 4: process letter
 step 5: print upper case letter
 step 6: print lower case letter
+
+flow chart
+![photo_2023-11-18_12-00-29](https://github.com/SWEG-2015EC-Batch/Akir-Coders/assets/149458119/416e7be3-de40-4f8e-b532-fc6dca1e5c9f)
+
+
