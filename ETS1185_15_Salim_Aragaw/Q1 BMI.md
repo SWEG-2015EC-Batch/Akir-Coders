@@ -17,5 +17,5 @@ step 4: print BMI
 step 5: stop
 
 flow chart
-![283946006-09264b92-09d2-4328-b4cd-9a895c88ab8b](https://github.com/SWEG-2015EC-Batch/Akir-Coders/assets/149458119/961dd9e3-9ac9-423e-945d-a5f66e0bda6f)
 
+![283946006-09264b92-09d2-4328-b4cd-9a895c88ab8b](https://github.com/SWEG-2015EC-Batch/Akir-Coders/assets/149458119/961dd9e3-9ac9-423e-945d-a5f66e0bda6f)
