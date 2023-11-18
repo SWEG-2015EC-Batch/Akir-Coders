@@ -1,14 +1,16 @@
-//File Transmission ETA Calculator
-#include<iostream>
-#include<ctype.h>
-#include<math.h>
-#include<string.h>
+#include <iostream>
 using namespace std;
 int main()
-{
-    unsigned int File_Size, Time_for_Transmition;
-    cout<<"Enter the File Size in Bytes"<<endl;
-    cin>>File_Size;
-    cout<<"It will take "<<File_Size/960<<" seconds to transmit this file"<<endl;
+ {
+    int transmissionRate = 960;
+    int fileSize,timeInSeconds,days; 
+    cout << "Enter the file size in bytes: ";
+    cin >> fileSize;
+    timeInSeconds = fileSize/transmissionRate;
+     days = timeInSeconds / (86400);
+     
+
+    cout << "Time to send the file: " << days <<"days"<<endl;
+
     return 0;
 }
