@@ -16,3 +16,7 @@ step 2: read the capacity and milesPerGallon of the automobile
 step 3: miles -->capacity * milesPerGallon
 step 4: print miles
 step 5: stop
+
+flow chart
+
+![Screenshot 2023-11-18 111510](https://github.com/SWEG-2015EC-Batch/Akir-Coders/assets/149458119/080353e4-f7e1-47cc-bf1f-9030013210e0)
