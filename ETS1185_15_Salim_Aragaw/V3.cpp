@@ -10,11 +10,11 @@ int main()
     for (float i = 0; i < number;i++)
     {
         
-     cout<<"Please Enter your Height"<< endl;
+     cout<<"Please Enter your Height: "<< endl;
     cin>>Height;
-    cout<<"Please Enter your Weight"<< endl;
+    cout<<"Please Enter your Weight: "<< endl;
     cin>>Weight;
-    cout<<"Enter your gender"<<endl;
+    cout<<"Enter your gender(male or female): "<<endl;
     cin>>gender;
     BMI = Weight/(Height*Height);
     cout<<"Your BMI is: "<<BMI<<endl;
