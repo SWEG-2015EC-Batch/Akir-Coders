@@ -5,9 +5,9 @@ int main()
 {
     float Height, Weight, BMI;
     string gender, male, female;
-    cout<<"Please Enter your Height"<< endl;
+    cout<<"Please Enter your Height(in meter): "<< endl;
     cin>>Height;
-    cout<<"Please Enter your Weight"<< endl;
+    cout<<"Please Enter your Weight(in kilogram): "<< endl;
     cin>>Weight;
     cout<<"Enter your gender (male or female): "<<endl;
     cin>>gender;
