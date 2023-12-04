@@ -9,7 +9,7 @@ int main()
     cin>>Height;
     cout<<"Please Enter your Weight"<< endl;
     cin>>Weight;
-    cout<<"Enter your gender"<<endl;
+    cout<<"Enter your gender say male or female"<<endl;
     cin>>gender;
     BMI = Weight/(Height*Height);
     cout<<"Your BMI is: "<<BMI<<endl;
