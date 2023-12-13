@@ -11,6 +11,5 @@ int main()
     BMI=(weight/(height*height));
     cout<<"BMI="<<BMI;
     
-    return 0;
 }
 
