@@ -33,5 +33,5 @@ int main()
         cout << "Special character" << endl;
     }
 
-    return 0;
+
 }
