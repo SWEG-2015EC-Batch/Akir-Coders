@@ -33,7 +33,7 @@ int main() {
         cin >> choice;
 
         int month, day;
-        double maxTemp, minTemp;
+        double maxTemp, minTemp,ltemp,htemp,average;
 
         switch (choice) {
             case 1:
@@ -45,12 +45,31 @@ int main() {
                 cout << "Low temperature: " << weather[month - 1][day - 1][1] << endl;
                 break;
             case 2:
-                cout << "Enter the month (1-12): ";
-                cin >> month;
-                cout << "High temperature: " << weather[month - 1][0][0] << endl;
-                cout << "Low temperature: " << weather[month - 1][0][1] << endl;
-                cout << "Average temperature: " << weather[month - 1][0][2] << endl;
-                break;
+            cout << "Enter the month (1-12): ";
+            cin >> month;
+          
+           htemp = weather[0][0][0];
+            for (int i = 0; i < NUM_DAYS; i++)
+            {
+                if (weather[month][i][0] > htemp)
+                {
+                    htemp = weather[month][i][0];
+                }  
+            }
+            cout << "High temperature: " << htemp << endl;
+            
+            ltemp = weather[0][0][0];
+            for (int i = 0; i < NUM_DAYS; i++)
+            {
+                if (weather[month][i][1] > ltemp)
+                {
+                    ltemp = weather[month][i][1];
+                }  
+            }
+            cout << "Low temperature: " << ltemp << endl;
+            average = (htemp + ltemp)/2;
+            cout << "Average temperature: " << average << endl;
+            break;
             case 3:
                 maxTemp = weather[0][0][0];
                 for (int m = 0; m < NUM_MONTHS; m++) {
