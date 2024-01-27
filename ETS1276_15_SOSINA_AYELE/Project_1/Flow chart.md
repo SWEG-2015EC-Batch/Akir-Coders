@@ -1,3 +1,5 @@
+## Mermaid
+```mermaid
 graph LR
 A[Start] --> B[Initialize Constants]
 B --> C[Initialize Array]
